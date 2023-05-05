@@ -1,0 +1,268 @@
+body
+{
+    background: url(https://undsgn.com/wp-content/uploads/2018/04/ltotbngnzzu.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.home
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+nav
+{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul
+{
+    margin-right: 200px;
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li
+{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 28px;
+}
+
+.text1  
+{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+.text1 h2
+{
+    margin-left: 50px;
+    display: inline-block;
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.text1 h3
+{
+    margin-top: 100px;
+    margin-left: -235px;
+    padding: 8px 8px;
+    display: center;
+    color: whitesmoke;
+    text-align: center;
+}  
+
+.loginbox
+{
+    width: 400px;
+    padding: 40px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    overflow: hidden;
+    margin-left: 400px;
+    margin-top: 200px;
+}
+
+.loginbox h2
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+.loginbox input
+{
+    width: 80%;
+    display: block;
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: rgb(240, 240, 240);
+}
+
+.loginbtn
+{
+    color: rgb(255, 255, 255);
+    width: 85%;
+    padding: 8px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    background: rgb(38, 194, 250);
+}
+
+.loginbtn:hover
+{
+    background: rgb(33, 158, 220);
+}
+
+.loginbox #email_error, 
+.loginbox #pass_error
+{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    margin-left: 33px;
+    width: 80%;
+    font-size: 17px;
+    color: red;
+    background: rgba(252, 101, 101, 0.403);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid red;
+    display: none;
+}
+
+.registerlink
+{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.registerlink span
+{
+    color: white;
+    font-size: 17px;
+}
+
+.registerlink a
+{
+    text-decoration: none;
+    color: rgb(17, 208, 238);
+    font-size: 17px;
+}
+
+
+
+
+
+.registerbox
+{
+    width: 400px;
+    padding: 40px;
+    background: transparent;
+    border: 2px solid rgba(0, 0, 0, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    overflow: hidden;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.registerbox h2
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    color: white;
+}
+
+.registerbox input
+{
+    width: 80%;
+    display: block;
+    padding: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background: rgb(240, 240, 240);
+}
+
+.registerbtn
+{
+    color: rgb(255, 255, 255);
+    width: 85%;
+    padding: 8px;
+    margin-left: 30px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    background: rgb(38, 194, 250);
+}
+
+.registerbox #name_error, 
+.registerbox #mail_error,
+.registerbox #mob_error,
+.registerbox #user_error,
+.registerbox #password_error
+{
+    margin-top: -15px;
+    margin-bottom: 15px;
+    margin-left: 33px;
+    width: 80%;
+    font-size: 17px;
+    color: red;
+    background: rgba(252, 101, 101, 0.403);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 5px;
+    border: 1px solid red;
+    display: none;
+}
+
+.registerbtn:hover
+{
+    background: rgb(33, 158, 220);
+}
+
+.loginlink
+{
+    margin-left: 110px;
+    margin-top: 10px;
+}
+
+.loginlink span
+{
+    color: white;
+    font-size: 17px;
+}
+
+.loginlink a
+{
+    text-decoration: none;
+    color: rgb(17, 208, 238);
+    font-size: 17px;
+}
+
+

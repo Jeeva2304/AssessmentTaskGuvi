@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Registration Page</title>
+        <link href="file.css" type="text/css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="registerbox">
+            <h2> SIGN UP </h2>
+            <form action= "register.php" method="POST" name="form" onsubmit="return validated()">
+                <input autocomplete="off" type="text" placeholder="Full Name" name="fullname"/>
+                <div id="name_error">Please Enter Your Name</div>
+                <input autocomplete="off" type="text" placeholder="Email" name="email"/>
+                <div id="mail_error">Please Enter Your Email ID</div>
+                <input autocomplete="off" type="text" placeholder="Mobile Number" name="mob_no"/>
+                <div id="mob_error">Please Enter Your Mobile Number</div>
+                <input autocomplete="off" type="text" placeholder="Username" name="username"/>
+                <div id="user_error">Please Enter Your Username</div>
+                <input autocomplete="off" type="password   " placeholder="Password" name="password"/>
+                <div id="password_error">Please Enter New Password</div>
+                <button class="registerbtn" type="submit" name="register">Sign up</button>
+                <div class="loginlink">
+                    <span> Have an account ? </span><a href="login.html">Log in</a>
+                </div>
+            </form>
+        </div>
+        <script src="register.js"></script>
+    </body>
+</html>
